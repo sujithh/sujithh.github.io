@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<article>
+  <h1>{{ page.title }}</h1>
+  <p><small>Published on {{ page.date | date: "%B %d, %Y" }}</small></p>
+  {{ content }}
+</article>
+
+<!-- Giscus Comments Section -->
+<section id="comments">
+  <script src="https://giscus.app/client.js"
+        data-repo="sujithh/sujithh.github.io"
+        data-repo-id="R_kgDONj8tCw"
+        data-category="Comment"
+        data-category-id="DIC_kwDONj8tC84CluRm"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+  </script>
+</section>
+
