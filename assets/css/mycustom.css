@@ -1,0 +1,39 @@
+/* Custom Navigation Pane Styles */
+.page-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.side-nav {
+  width: 200px;
+  padding: 10px;
+  background-color: #f4f4f4; /* Light gray background */
+  border-right: 1px solid #ddd; /* Optional border for separation */
+}
+
+.side-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-nav ul li {
+  margin-bottom: 10px;
+}
+
+.side-nav ul li a {
+  text-decoration: none;
+  color: #157878; /* Theme color */
+  font-weight: bold;
+}
+
+.side-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+

@@ -11,9 +11,7 @@ Hello! I'm a developer passionate about creating software solutions. I specializ
 Here are a few fun facts about me:
 - I'm interested in Free and open-source software, contributions.
 - I love coding challenges.
-- I enjoy learning new programming languages.
+- I enjoy learning new programming languages / frameworks / technology.
 - I have hands on experience working with Symfony framework.
-- I reside in Düsseldorf with my family.
+- I reside in Düsseldorf, Germany with my family (me, wife and a adorable daughter).
 
----
-### [Go Back to Home](/)
