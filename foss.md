@@ -142,3 +142,11 @@ Here are some of my contributions to free and open-source software projects:
 - [View all my commits](https://github.com/moodle/moodle/commits/main/?author=sharidas)  
   _Description_: Explore all contributions I've made to Moodle edu tech platform.
 
+---
+
+## Articles written
+
+### Linux Gazette
+
+ - [My article on how to hack Canon A720IS digital camera with CHDK](https://linuxgazette.net/154/sujith.html)  
+   _Description_: For this article I brought my first camera. The joy I had flashing my changes to sd card and getting it working on my camera was priceless.
