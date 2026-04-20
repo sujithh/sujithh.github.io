@@ -1,0 +1,13 @@
+<footer>
+  <div class="copyright">
+    {{ with .Site.Params.copyright }}© {{ dateFormat "2006" now }} {{ . | safeHTML }}{{ end }}
+  </div>
+  <div class="license-note">
+    Unless otherwise noted, writing on this site is shared under
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener">CC BY-NC-SA 4.0</a>.
+  </div>
+  <div class="attribution">
+    Built with <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> and
+    <a href="https://github.com/mnjm/kayal" target="_blank" rel="noopener">Kayal</a>.
+  </div>
+</footer>

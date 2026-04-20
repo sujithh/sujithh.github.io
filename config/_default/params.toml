@@ -1,0 +1,62 @@
+description = "Random scribbles of Sujith H"
+copyright = "Sujith Haridasan"
+optimizeImg = true
+enableCodeCopy = true
+showThemeSwitcher = true
+defaultTheme = "auto"
+highlightCurrentMenu = true
+mainSections = ["posts"]
+removeAttribution = false
+lastUpdate = false
+showHeadingAnchors = true
+enableSearch = true
+
+[homepage]
+showRecent = true
+showRecentLabel = "Latest Posts"
+showRecentItems = 5
+showMore = true
+showMoreDest = "/posts/"
+
+[homepage.profile]
+headline = "Notes from an open-source contributor's desk"
+where = "right"
+
+[article]
+showDate = true
+showModDate = false
+showReadingTime = true
+showTags = false
+showPagination = true
+invertPagination = true
+showToC = true
+openToC = false
+showComments = false
+showBreadcrumbs = false
+
+[list]
+groupByYear = false
+showBreadcrumbs = false
+cardView = true
+showThumbnail = false
+showRSS = true
+
+[term]
+groupByYear = false
+showBreadcrumbs = false
+cardView = true
+showRSS = false
+
+[taxonomy]
+showCount = true
+cardView = true
+
+[[social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/sujithh"
+
+[[social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"

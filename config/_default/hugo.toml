@@ -1,0 +1,29 @@
+baseURL = "https://sujithh.github.io/"
+languageCode = "en-us"
+title = "CoreDump"
+theme = "kayal"
+
+[pagination]
+  pagerSize = 5
+
+enableEmoji = true
+enableRobotsTXT = true
+summaryLength = 0
+buildDrafts = false
+buildFuture = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[services]
+  [services.googleAnalytics]
+    ID = "G-29JPLZ15DR"
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"

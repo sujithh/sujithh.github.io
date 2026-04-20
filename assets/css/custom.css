@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap");
+
+:root {
+  --ff: "Source Serif 4";
+  --radius: 8px;
+  --primary-color: #262321;
+  --secondary-color: #f6f3ec;
+  --tertiary-color: #7b2d26;
+  --link-color: #3c6e71;
+  --tertiary-color-light: #ead6b9;
+  --secondary-color-dark: #ece7dc;
+  --black: #262321;
+  --scrollbar-track: #f6f3ec;
+  --scrollbar-thumb: #cdbfa3;
+}
+
+.dark {
+  --primary-color: #f2ece1;
+  --secondary-color: #201d1b;
+  --tertiary-color: #ef8c6a;
+  --tertiary-color-light: #61362f;
+  --secondary-color-dark: #2b2622;
+  --scrollbar-track: #201d1b;
+  --scrollbar-thumb: #5f5346;
+}
+
+body {
+  line-height: 1.75;
+}
+
+header .title span,
+main h1,
+main h2,
+main h3,
+.headline,
+.lst-card li h2,
+.lst-card li h3,
+.post-title,
+.article-title {
+  font-family: "Caveat", cursive;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+header .title span {
+  font-size: 2.8rem;
+}
+
+.headline {
+  font-size: 1.35rem;
+  color: var(--tertiary-color);
+}
+
+main h1 {
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+}
+
+main h2 {
+  font-size: clamp(2rem, 4vw, 2.9rem);
+}
+
+main h3 {
+  font-size: clamp(1.55rem, 3vw, 2.2rem);
+}
+
+.menu a,
+.meta,
+time,
+.breadcrumbs,
+.license-note,
+footer,
+.showmore button {
+  font-family: "Source Serif 4", serif;
+}
+
+.content {
+  max-width: 900px;
+}
+
+.lst-card li,
+article,
+.featured {
+  border-radius: 10px;
+}
+
+.featured > h1 {
+  margin-bottom: 1rem;
+}
+
+article img {
+  border-radius: 10px;
+}
+
+footer {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.license-note {
+  opacity: 0.9;
+}
